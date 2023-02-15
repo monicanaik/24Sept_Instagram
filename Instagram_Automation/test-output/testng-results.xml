@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-13T21:39:25 IST" name="TestSuite" finished-at="2023-02-13T21:41:22 IST" duration-ms="117021">
+    <groups>
+    </groups>
+    <test started-at="2023-02-13T21:39:25 IST" name="chromeTest" finished-at="2023-02-13T21:40:20 IST" duration-ms="54821">
+      <class name="testNGPackage.VerifyInstagramLoginFunctionality">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testNGPackage.VerifyInstagramLoginFunctionality@29626d54]" started-at="2023-02-13T21:39:25 IST" name="launchBrowser" finished-at="2023-02-13T21:39:33 IST" duration-ms="7533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:testNGPackage.VerifyInstagramLoginFunctionality@29626d54]" started-at="2023-02-13T21:39:33 IST" name="createPOMObjects" finished-at="2023-02-13T21:39:33 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="loginFunctionality()[pri:0, instance:testNGPackage.VerifyInstagramLoginFunctionality@29626d54]" started-at="2023-02-13T21:39:33 IST" name="loginFunctionality" finished-at="2023-02-13T21:40:12 IST" duration-ms="38693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionality -->
+        <test-method signature="verifySearchFunctionality()[pri:0, instance:testNGPackage.VerifyInstagramLoginFunctionality@29626d54]" started-at="2023-02-13T21:40:12 IST" name="verifySearchFunctionality" finished-at="2023-02-13T21:40:16 IST" duration-ms="4194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchFunctionality -->
+        <test-method is-config="true" signature="clickOnLogOutFunctionality()[pri:0, instance:testNGPackage.VerifyInstagramLoginFunctionality@29626d54]" started-at="2023-02-13T21:40:16 IST" name="clickOnLogOutFunctionality" finished-at="2023-02-13T21:40:19 IST" duration-ms="3473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLogOutFunctionality -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNGPackage.VerifyInstagramLoginFunctionality@29626d54]" started-at="2023-02-13T21:40:19 IST" name="afterClass" finished-at="2023-02-13T21:40:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:testNGPackage.VerifyInstagramLoginFunctionality@29626d54]" started-at="2023-02-13T21:40:19 IST" name="aftertest" finished-at="2023-02-13T21:40:20 IST" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- testNGPackage.VerifyInstagramLoginFunctionality -->
+    </test> <!-- chromeTest -->
+    <test started-at="2023-02-13T21:40:20 IST" name="FirefoxTest" finished-at="2023-02-13T21:41:22 IST" duration-ms="61999">
+      <class name="testNGPackage.VerifyInstagramLoginFunctionality">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testNGPackage.VerifyInstagramLoginFunctionality@16ec5519]" started-at="2023-02-13T21:40:20 IST" name="launchBrowser" finished-at="2023-02-13T21:40:40 IST" duration-ms="19544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObjects()[pri:0, instance:testNGPackage.VerifyInstagramLoginFunctionality@16ec5519]" started-at="2023-02-13T21:40:40 IST" name="createPOMObjects" finished-at="2023-02-13T21:40:40 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObjects -->
+        <test-method is-config="true" signature="loginFunctionality()[pri:0, instance:testNGPackage.VerifyInstagramLoginFunctionality@16ec5519]" started-at="2023-02-13T21:40:40 IST" name="loginFunctionality" finished-at="2023-02-13T21:41:12 IST" duration-ms="32154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionality -->
+        <test-method signature="verifySearchFunctionality()[pri:0, instance:testNGPackage.VerifyInstagramLoginFunctionality@16ec5519]" started-at="2023-02-13T21:41:12 IST" name="verifySearchFunctionality" finished-at="2023-02-13T21:41:16 IST" duration-ms="3763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchFunctionality -->
+        <test-method is-config="true" signature="clickOnLogOutFunctionality()[pri:0, instance:testNGPackage.VerifyInstagramLoginFunctionality@16ec5519]" started-at="2023-02-13T21:41:16 IST" name="clickOnLogOutFunctionality" finished-at="2023-02-13T21:41:20 IST" duration-ms="3787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLogOutFunctionality -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNGPackage.VerifyInstagramLoginFunctionality@16ec5519]" started-at="2023-02-13T21:41:20 IST" name="afterClass" finished-at="2023-02-13T21:41:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:testNGPackage.VerifyInstagramLoginFunctionality@16ec5519]" started-at="2023-02-13T21:41:20 IST" name="aftertest" finished-at="2023-02-13T21:41:22 IST" duration-ms="2740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- testNGPackage.VerifyInstagramLoginFunctionality -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>
